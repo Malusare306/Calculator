@@ -9,6 +9,7 @@ public class CalculatorOperations {
 		CalculatorOperations calculator = new CalculatorOperations();
 
 		int choice;
+		
 		do {
 			System.out.println("1. Addition of two numbers");
 			System.out.println("2. Subtraction of two numbers");
