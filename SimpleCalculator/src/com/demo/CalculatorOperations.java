@@ -5,28 +5,6 @@ import java.util.Scanner;
 public class CalculatorOperations {
 	Scanner scanner = new Scanner(System.in);
 
-	public interface Calculator {
-		void addition(double num1, double num2);
-
-		void subtraction(double num1, double num2);
-
-		void multiplication(double num1, double num2);
-
-		void division(double num1, double num2);
-
-		void modulus(double num1, double num2);
-
-		void square(double num);
-
-		void cube(double num);
-
-		void average(double... numbers);
-
-		void factors(int num);
-
-		void checkEvenOrOdd(int num);
-	}
-
 	public static void main(String[] args) {
 		CalculatorOperations calculator = new CalculatorOperations();
 
@@ -79,7 +57,6 @@ public class CalculatorOperations {
 				break;
 
 			case 5:
-
 				System.out.print("Enter the first number: ");
 				num1 = calculator.scanner.nextDouble();
 				System.out.print("Enter the second number: ");
@@ -100,6 +77,7 @@ public class CalculatorOperations {
 				break;
 
 			case 8:
+
 				System.out.print("Enter the number of elements: ");
 				int n = calculator.scanner.nextInt();
 				double[] nums = new double[n];
